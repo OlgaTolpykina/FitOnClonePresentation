@@ -3,8 +3,24 @@
   &.title-first {
     text-align: left;
     text-transform: capitalize;
-    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, $color-linear-gradient1), color-stop(0.3, $color-linear-gradient2), color-stop(0.75, $color-linear-gradient3), color-stop(1, $color-linear-gradient4) );
-    background-image: gradient( linear, left top, right top, color-stop(0, $color-linear-gradient1), color-stop(0.3, $color-linear-gradient2), color-stop(0.75, $color-linear-gradient3), color-stop(1, $color-linear-gradient4) );
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0, $color-linear-gradient1),
+      color-stop(0.3, $color-linear-gradient2),
+      color-stop(0.75, $color-linear-gradient3),
+      color-stop(1, $color-linear-gradient4)
+    );
+    background-image: gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0, $color-linear-gradient1),
+      color-stop(0.3, $color-linear-gradient2),
+      color-stop(0.75, $color-linear-gradient3),
+      color-stop(1, $color-linear-gradient4)
+    );
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -96,8 +112,24 @@
 }
 
 .reveal a.title {
-  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, $color-linear-gradient1), color-stop(0.3, $color-linear-gradient2), color-stop(0.75, $color-linear-gradient3), color-stop(1, $color-linear-gradient4) );
-  background-image: gradient( linear, left top, right top, color-stop(0, $color-linear-gradient1), color-stop(0.3, $color-linear-gradient2), color-stop(0.75, $color-linear-gradient3), color-stop(1, $color-linear-gradient4) );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, $color-linear-gradient1),
+    color-stop(0.3, $color-linear-gradient2),
+    color-stop(0.75, $color-linear-gradient3),
+    color-stop(1, $color-linear-gradient4)
+  );
+  background-image: gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, $color-linear-gradient1),
+    color-stop(0.3, $color-linear-gradient2),
+    color-stop(0.75, $color-linear-gradient3),
+    color-stop(1, $color-linear-gradient4)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
