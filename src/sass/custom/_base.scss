@@ -40,6 +40,10 @@
       font-size: 30px;
       margin-bottom: 0;
     }
+    & span {
+      text-transform: none;
+      font-weight: 100;
+    }
   }
 }
 
