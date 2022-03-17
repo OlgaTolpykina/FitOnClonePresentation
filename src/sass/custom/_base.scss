@@ -64,7 +64,8 @@
   font-size: 20px;
 }
 
-.reveal img.fragment {
+.reveal img.img-development {
+  margin-top: 50px;
   border-radius: 30px;
 }
 
@@ -113,6 +114,11 @@
 .reveal img.image-commits {
   border-radius: 20px;
   margin-top: 50px;
+}
+
+.reveal img.image-tech-stack {
+  max-width: 650px;
+  opacity: 0.9;
 }
 
 .reveal a.title {
